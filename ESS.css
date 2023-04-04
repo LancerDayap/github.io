@@ -1,0 +1,109 @@
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    font-size: 1.3rem;
+}
+
+/* hero section */
+.hero-section {
+    height: 50vh;
+    background-image: url(./pic/pexels-photo-2611817.webp);
+    background-size: cover;
+    background-position: center;
+    margin-top: 5rem;
+    padding: 5rem;
+    padding-top: 10rem
+}
+
+
+
+
+
+/* product section */
+.products-section {
+    margin-top: 3rem;
+}
+
+.card-img-top {
+    object-fit: contain;
+    height: 250px;
+}
+
+
+.card {
+    margin: 10px 0;
+    transition: .3s;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    transform: translateY(-10px);
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 1rem;
+    }
+    
+    .social-icons a {
+    margin: .8rem;
+    }
+    
+    .social-icons i {
+    font-size: 1.5rem;
+    color: #000;
+    transition: color 0.3s ease-in-out;
+    }
+    
+    .social-icons i:hover {
+    color: #333;
+    }
+    
+    footer ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer li {
+        padding : 15px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #333;
+    }
